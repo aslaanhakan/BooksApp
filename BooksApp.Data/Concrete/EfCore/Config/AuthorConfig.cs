@@ -21,12 +21,12 @@ namespace BooksApp.Data.Concrete.EfCore.Config
             builder.Property(x => x.Gender).IsRequired();
 
             builder.HasData(
-                new Author { Id = 1, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Orhan Parasaçan", Gender = "E", Url="orhan-parasacan" },
-                new Author { Id = 2, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Selami Gülgeçen", Gender = "E", Url="selami-gulgecen" },
-                new Author { Id = 3, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Seyhan Yolagelen", Gender = "E", Url="seyhan-yolagelen" },
-                new Author { Id = 4, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Hale Çokseven",  Gender = "E",Url="hale-cokseven" },
-                new Author { Id = 5, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Kemal Devabulan", Gender = "E",Url="kemal-devabulan" },
-                new Author { Id = 6, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Selen Günebakan", Gender = "E",Url="selen-gunebakan" }
+                new Author { Id = 1, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Saniye Bencik Kangal", Gender = "K", Url="saniye-bencik-kangal" },
+                new Author { Id = 2, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Ceren Koçak", Gender = "K", Url="ceren-kocak" },
+                new Author { Id = 3, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Merve Solak Arabacı", Gender = "K", Url="merve-solak-arabaci" },
+                new Author { Id = 4, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Brittainy C. Cherry",  Gender = "K",Url= "brittainy-cherry" },
+                new Author { Id = 5, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Marcus Week", Gender = "E",Url="marcus-week" },
+                new Author { Id = 6, CreatedDate = DateTime.Now, ModifiedDate = DateTime.Now, IsApproved = true, Name = "Grigoriy Petrov", Gender = "E",Url="grigoriy-petrov" }
             );
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WYYR5J+C/ReZB7SVfXBssOen+I2Pl7YbkJxbdU54tkjtNR4itwlQYmC1dGvnABRAOw6sZ9hXr1Yxo7aAh+Tl7g==",
+  "dgSpecHash": "Qz+SU6QqKYinrkd5u36NqiaaQFebGXO8GDnLCQrb2SdAXad6qMUU9syskQx1UOOmUdcLLZDK22Yes9Rl1FPe3w==",
   "success": true,
-  "projectFilePath": "C:\\Git\\ERP-7\\Week-11\\27-03-2023\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\BooksApp\\BooksApp.Entity\\BooksApp.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
